@@ -1,0 +1,18 @@
+{
+  "name": "basics",
+  "version": "0.0.1-SNAPSHOT",
+  "description": "Aula 01 - Basico de NodeJS e Express",
+  "main": "index.js",
+  "scripts": {
+    "prd": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Vinicius Machado",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
