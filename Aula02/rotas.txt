@@ -1,0 +1,20 @@
+CRIPTOGRAFIA
+VALIDAÇÃO
+
+
+* admin
+    * listagem de usuarios
+
+
+* cadastro de usuario
+    * atualização de perfil
+    * desativar conta
+    * visualizar os próprios dados
+* login / logout
+* sumário de usuarios
+
+* criar enquete
+* encerrar enquete
+* votar numa enquete
+* sumário enquete
+
