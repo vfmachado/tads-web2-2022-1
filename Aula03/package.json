@@ -1,0 +1,20 @@
+{
+  "name": "project-01",
+  "version": "1.0.0",
+  "description": "Projeto com conceitos basicos de nodejs, backend e afins",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "nanoid": "^3.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
