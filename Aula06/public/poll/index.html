@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="/poll" method="post">
+
+        <label>Descrição</label>
+        <input type="text" name="description">
+        <br>
+
+        <label>Opção A</label>
+        <input type="text" name="opt_a">
+        <br>
+
+        <label>Opção B</label>
+        <input type="text" name="opt_b">
+        <br>
+
+        <label>Opção C</label>
+        <input type="text" name="opt_c">
+        <br>
+        
+        <label>Finaliza em:</label>
+        <input type="datetime" name="finished_at">
+
+        <br />
+        <input type="submit" value="Cadastrar Enquete">
+    </form>
+
+</body>
+</html>

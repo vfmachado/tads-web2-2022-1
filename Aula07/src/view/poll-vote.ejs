@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<%- include('includes/head'); %>
+
+<body>
+    <h1>Detalhes da Enquete</h1>
+    <h2><%= poll.description %></h2>
+    
+    <form action="/poll/vote" method="post">
+        <input type="hidden" name="pollId" value="<%= poll.id %>">
+        <%= poll.optA %><input type="radio" name="opt" value="A"><br>
+        <%= poll.optB %><input type="radio" name="opt" value="B"><br>
+        <%= poll.optC %><input type="radio" name="opt" value="C"><br>
+        <br>
+        <input type="submit" value="VOTAR!">
+
+    </form>
+</body>
+
+</html>

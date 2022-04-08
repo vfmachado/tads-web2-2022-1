@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<%- include('includes/head'); %>
+
+<body>
+    <% if (user) { %>
+        <h1>Detalhes do <%= user.name %></h1>
+    <% } else { %>
+        <h1>Usuário invalido</h1>
+    <% } %>
+</body>
+
+</html>

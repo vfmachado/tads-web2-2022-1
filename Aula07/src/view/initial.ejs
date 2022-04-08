@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Now!!!</title>
+
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+<body>
+  <h1>Bem vindo a votação pública</h1>
+
+  <hr />
+  <h2>Criar conta EJS</h2>
+
+  <h3><%= locals.errors %></h3>
+
+  <form action="/users" method="post" enctype="multipart/form-data">
+    <% if (locals.errors && errors.name) { %>
+      <h3 style="color: red"><%= errors.name %></h3>
+    <% } %>
+    <input type="text" name="name">
+    <br/>
+    <input type="text" name="email">
+    <br/>
+    <input type="password" name="password">
+    <br>
+    <input type="file" name="picture">
+    <br>
+    <button type="submit">Cadastrar!</button>
+
+  </form>
+
+</body>
+</html>
