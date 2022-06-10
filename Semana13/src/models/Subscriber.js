@@ -13,7 +13,8 @@ class Subscriber extends Model {}
     
 Subscriber.init({
     name: DataTypes.STRING,
-    email: DataTypes.STRING
+    email: DataTypes.STRING,
+    password: DataTypes.STRING
 }, { 
     sequelize: sequelizeCon, 
     schema: 'aula-remota',
